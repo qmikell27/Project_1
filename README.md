@@ -29,13 +29,13 @@ What is the advantage of a jump box?
 The advantage of using a jump box is to allow access into the server by using a single node which is monitored and used by a single user. There is only one way into jump box which is secured by using encrypted public and private keys which only exist on the user’s machine. This one way in, one way out access adds an additional level of security and transparency for the administrator
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the logs and system traffic.
-- _TODO: What does Filebeat watch for?_
+
 Filebeat is a lightweight shipper for forwarding and centralizing log data. This means that Filebeat monitors the information in a file system and it logs the file and any changes made to the file if it notices any changes it will report on what was changed and when. Essentially Filebeat is a watchdog for file/locations and logs and keeps track of these events
-- _TODO: What does Metricbeat record?_
+
 Metricbeat is a lightweight shipper which can be installed on servers to collect metrics from the operating system, and from services running on the server. This means that Metricbeat collects data on a server and sends them to an output that the user specifies. The user can then analyze the data and statistics gathered by Metricbeat to make important decisions about the servers
 
 The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
+
 
 |   Name  |  Function  | IP Address |       O.S.       |
 |:-------:|:----------:|:----------:|:----------------:|
@@ -52,11 +52,10 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the JumbBox machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- _TODO: Add whitelisted IP addresses_
+
 The whitelisted IP address to gain access to the JumpBox: Admin (My Personal IP)
 
 Machines within the network can only be accessed by _____.
-- _TODO: Which machine did you allow to access your ELK VM? What was its IP address?_
 The only machine that has access to the ELK VM has the private IP address 10.0.0.4 via SSH Port 22
 
 A summary of the access policies in place can be found in the table below.
@@ -72,11 +71,10 @@ A summary of the access policies in place can be found in the table below.
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
-- _TODO: What is the main advantage of automating configuration with Ansible?_
+
 Automating configuration with Ansible allows you to be able to deploy multiple servers using the same playbook file. 
 
 The playbook implements the following tasks:
-- _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
 •	Install Docker.io
 •	Install Python-pip
 •	Install Docker Container
