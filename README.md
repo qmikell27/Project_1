@@ -2,7 +2,7 @@
 ## Automated ELK Stack Deployment
 
 The files in this repository were used to configure the network depicted below.
-~/OneDrive/Desktop/QM_HW_Projects/Project_1/Diagrams/elkdiagramss.PNG
+<img width="480" alt="elkdiagramss" src="https://user-images.githubusercontent.com/107008734/173701468-ae5a65e4-0402-4439-ae1f-bf7587e65d2f.PNG">
 
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the Congig and Yaml files may be used to install only certain pieces of it, such as Filebeat.
