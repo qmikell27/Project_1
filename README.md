@@ -91,8 +91,9 @@ Automating configuration with Ansible allows you to be able to deploy multiple s
 - Download Configuration To Container
 - Launch Container
 
---- Creating a New Vnet
-    1. Enter The Previous Resource Group You Have Been Using And Create A New VNet
+       
+    1. Create New Virtual Net 
+       * Enter The Previous Resource Group You Have Been Using And Create A New VNet
        * Make Sure They Are Included In The Same Region
 [Add Screenshot]
 
