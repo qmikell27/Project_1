@@ -81,12 +81,48 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 
 Automating configuration with Ansible allows you to be able to deploy multiple servers using the same playbook file. 
 
+
+### Elk Server Set Up Instructions
+
+- Create New Virtual Net
+- Create Peering Rules
+- Create Elk Server VM
+- Create Ansible Playbook
+- Download Configuration To Container
+- Launch Container
+
+--- Creating a New Vnet
+    1. Enter The Previous Resource Group You Have Been Using And Create A New VNet
+       * Make Sure They Are Included In The Same Region
+[Add Screenshot]
+
+    2. Create Two Pronged Peering Rule
+       * Elk To Red And Red To Elk
+[Add Screenshot]
+
+    3. Create The Elk Server VM 
+       * Make Sure The IP Public Ip Address Matches Your Local Machine In The Security Settings
+       * Make Sure Your Elk VM Is In The Same Region As Your Virtual Net
+       * Once The VM Is Created And Deployed You Must SSH Into The Jump Box
+       * Once Into Your Jump Box Its Time To Created A Public/Private Key Paring Use The Command SSH-Keygen
+       * Once Completed Cat The Public Key Using The Command cat /.ssh/id_rsa.pub
+       * Copy The Pub Key And Navigate To YOur Elk Server On Azure And Paste The Public Key Into The Password Reset Menu
+ [Add ScreeenShots]
+
+    4. Create Ansible Playbook
+       * Using A Template Or Your Text Editor Of Choice Create An Ansible Playbook For The Configuration And File Download
+[Add Screenshot]
+    5. Download The Configuration To The Container
+[Add Screenshot]
+    6. Launch The Container
+ [Add Screenshot]  
 The playbook implements the following tasks:
 •	Install Docker.io
 •	Install Python-pip
 •	Install Docker Container
 •	Download Launch Docker Container: Elk
 •	Enable Docker Service on Boot
+
 
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
