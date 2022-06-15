@@ -5,7 +5,7 @@ The files in this repository were used to configure the network depicted below.
 <img width="480" alt="elkdiagramss" src="https://user-images.githubusercontent.com/107008734/173701468-ae5a65e4-0402-4439-ae1f-bf7587e65d2f.PNG">
 
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the Congig and Yaml files may be used to install only certain pieces of it, such as Filebeat.
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the Configuration and Yaml files may be used to install only certain pieces of it, such as Filebeat.
 
 - [Install Elk](https://github.com/qmikell27/Project_1/blob/main/Ansible/installelk.yml)
 - [Docker Vm Install](https://github.com/qmikell27/Project_1/blob/main/Ansible/dockerinstall.yml)
@@ -31,9 +31,9 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 
 Load balancing ensures that the application will be highly dependable, in addition to restricting traffic to the network.
 What aspect of security do load balancers protect? 
-The load balancers protect the systems from various attacks, especially DDoS attacks which sole aim is to overload the servers. The load balancers ensure that the activity hitting the sites is spread between the servers so as to not overload a single server. This balancing ensures that the websites will be available which is an important aspect of their deployment
+The load balancers protect the systems from various attacks, especially DDoS attacks which sole aim is to overload the servers. The load balancers ensure that the activity hitting the sites is spread between the servers so as to not overload a single server. This balancing ensures that the websites will be available which is an important aspect of their deployment.
 What is the advantage of a jump box?
-The advantage of using a jump box is to allow access into the server by using a single node which is monitored and used by a single user. There is only one way into jump box which is secured by using encrypted public and private keys which only exist on the user’s machine. This one way in, one way out access adds an additional level of security and transparency for the administrator
+The advantage of using a jump box is to allow access into the server by using a single node which is monitored and used by a single user. There is only one way into jump box which is secured by using encrypted public and private keys which only exist on the user’s machine. This one way in, one way out access adds an additional level of security and transparency for the administrator.
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the logs and system traffic.
 
