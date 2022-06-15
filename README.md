@@ -8,13 +8,13 @@ The files in this repository were used to configure the network depicted below.
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the Congig and Yaml files may be used to install only certain pieces of it, such as Filebeat.
 
 - [Install Elk](https://github.com/qmikell27/Project_1/blob/main/Ansible/installelk.yml)
-- https://github.com/qmikell27/Project_1/blob/main/Ansible/dockerinstall.yml
-- https://github.com/qmikell27/Project_1/blob/main/Ansible/filebeat-config.yml
-- https://github.com/qmikell27/Project_1/blob/main/Ansible/filebeat-playbook.yml
-- https://github.com/qmikell27/Project_1/blob/main/Ansible/hosts
-- https://github.com/qmikell27/Project_1/blob/main/Ansible/metricbeat-config.yml
-- https://github.com/qmikell27/Project_1/blob/main/Ansible/metricbeat-playbook.yml
-- https://github.com/qmikell27/Project_1/blob/main/Ansible/ansible.cfg
+- [Docker Vm Install](https://github.com/qmikell27/Project_1/blob/main/Ansible/dockerinstall.yml)
+- [Filebeat Config](https://github.com/qmikell27/Project_1/blob/main/Ansible/filebeat-config.yml)
+- [Filebeat Playbook](https://github.com/qmikell27/Project_1/blob/main/Ansible/filebeat-playbook.yml)
+- [Hosts](https://github.com/qmikell27/Project_1/blob/main/Ansible/hosts)
+- [Metricbeat Config](https://github.com/qmikell27/Project_1/blob/main/Ansible/metricbeat-config.yml)
+- [Metricbeat Playbook](https://github.com/qmikell27/Project_1/blob/main/Ansible/metricbeat-playbook.yml)
+- [Ansible Config](https://github.com/qmikell27/Project_1/blob/main/Ansible/ansible.cfg)
 
 This document contains the following details:
 - Description of the Topology
