@@ -118,3 +118,19 @@ Navigate to /etc/ansible/host edit the file to add webserver/elkserver ip addres
 http://[ELK-VM.Public IP]:5601/app/kibana
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
 
+|                         Command                         |                          Description                          |
+|:-------------------------------------------------------:|:-------------------------------------------------------------:|
+|               ssh [user name]@[Jumpbox IP               |                      Connects to JumpBox                      |
+|                        ssh-keygen                       |               Generates Public/Private Key Pair               |
+|                  cat ~./ssh_/id_rsa.pub                 |                  Cats Public Key To Terminal                  |
+|              sudo docker container list -a              |              Lists The Containers On The Machine              |
+|            sudo docker start [container name]           |                   Starts The Named Container                  |
+|           sudo docker attach [container name]           |                  Attaches The Named Container                 |
+|                           Exit                          |     Exits The Container (Exit A Second Time Exits Ansible)    |
+|                     cd /etc/ansible                     |               Changes Directory To /Etc/Ansible               |
+|                nano /etc/ansible/(hosts)                |               Opens Ansible (Hosts) File To Edit              |
+|              nano /etc/ansible/ansible.cfg              |               Opens Ansible Config File To Edit               |
+|   nano filebeat-config.yml nano filebeat-playbook.yml   |  Opens Filebeat File To Edit Opens Filebeat Playbook To Edit  |
+| nano metricbeat-config.yml nano metricbeat-playbook.yml | Opens Metricbeat File To Edit Opens Filebeat Playbook To Edit |
+|             ansible-playbook [filename.yml]             |                     Executes The Playbook                     |
+|                                                         |                                                               |
