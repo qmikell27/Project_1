@@ -95,11 +95,12 @@ Automating configuration with Ansible allows you to be able to deploy multiple s
     1. Create New Virtual Net 
        * Enter The Previous Resource Group You Have Been Using And Create A New VNet
        * Make Sure They Are Included In The Same Region
-[Add Screenshot]
-
+<img width="687" alt="createElkVM" src="https://user-images.githubusercontent.com/107008734/173940504-1660b43a-fdca-45c3-87de-cdc5339c30cb.PNG">
+<img width="567" alt="CreateElkVnet" src="https://user-images.githubusercontent.com/107008734/173940813-af7a127f-195f-4fd8-9b44-7cf6b34a7cb2.PNG">
     2. Create Two Pronged Peering Rule
        * Elk To Red And Red To Elk
-[Add Screenshot]
+<img width="1122" alt="Peerings" src="https://user-images.githubusercontent.com/107008734/173940920-7873cad6-4a09-4d41-8b3d-22a38c4a7f6b.PNG">
+<img width="991" alt="peerings2" src="https://user-images.githubusercontent.com/107008734/173940986-797ae146-03d2-48f4-b322-3135ccf460a5.PNG">
 
     3. Create The Elk Server VM 
        * Make Sure The IP Public Ip Address Matches Your Local Machine In The Security Settings
@@ -108,8 +109,10 @@ Automating configuration with Ansible allows you to be able to deploy multiple s
        * Once Into Your Jump Box Its Time To Created A Public/Private Key Paring Use The Command SSH-Keygen
        * Once Completed Cat The Public Key Using The Command cat /.ssh/id_rsa.pub
        * Copy The Pub Key And Navigate To YOur Elk Server On Azure And Paste The Public Key Into The Password Reset Menu
- [Add ScreeenShots]
-
+(https://user-images.githubusercontent.com/107008734/173941708-86b6ab72-0f65-446f-b6fc-ca4b3d144cbd.png
+Subnets <img width="1199" alt="elksubnets" src="https://user-images.githubusercontent.com/107008734/173941883-7b9815cd-0d35-4f48-aa79-6c25b44ac871.PNG">
+elksecrule <img width="1044" alt="elk security rules" src="https://user-images.githubusercontent.com/107008734/173941942-14db768b-f94e-48a2-8b0b-39af32641741.PNG">
+elk inbound rule <img width="953" alt="elk inbound rule" src="https://user-images.githubusercontent.com/107008734/173942014-68e4fbb0-99f9-4eb3-8603-ea93a683616d.PNG">
     4. Create Ansible Playbook
        * Using A Template Or Your Text Editor Of Choice Create An Ansible Playbook For The Configuration And File Download
 [Add Screenshot]
