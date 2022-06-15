@@ -109,7 +109,7 @@ Automating configuration with Ansible allows you to be able to deploy multiple s
        * Once Into Your Jump Box Its Time To Created A Public/Private Key Paring Use The Command SSH-Keygen
        * Once Completed Cat The Public Key Using The Command cat /.ssh/id_rsa.pub
        * Copy The Pub Key And Navigate To YOur Elk Server On Azure And Paste The Public Key Into The Password Reset Menu
-(https://user-images.githubusercontent.com/107008734/173941708-86b6ab72-0f65-446f-b6fc-ca4b3d144cbd.png
+ElkVm <img width="1141" alt="ElkVm2" src="https://user-images.githubusercontent.com/107008734/173942538-c1783a25-ad07-4e6b-8af7-ab4e7c29b15e.PNG">
 Subnets <img width="1199" alt="elksubnets" src="https://user-images.githubusercontent.com/107008734/173941883-7b9815cd-0d35-4f48-aa79-6c25b44ac871.PNG">
 elksecrule <img width="1044" alt="elk security rules" src="https://user-images.githubusercontent.com/107008734/173941942-14db768b-f94e-48a2-8b0b-39af32641741.PNG">
 elk inbound rule <img width="953" alt="elk inbound rule" src="https://user-images.githubusercontent.com/107008734/173942014-68e4fbb0-99f9-4eb3-8603-ea93a683616d.PNG">
