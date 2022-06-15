@@ -105,13 +105,13 @@ These Beats allow us to collect the following information from each machine:
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-- Copy the _____ file to _____.
-- Update the _____ file to include...
+- Copy the - [Install Elk](https://github.com/qmikell27/Project_1/blob/main/Ansible/installelk.yml),- [Filebeat Config](https://github.com/qmikell27/Project_1/blob/main/Ansible/filebeat-config.yml)- [Metricbeat Config](https://github.com/qmikell27/Project_1/blob/main/Ansible/metricbeat-config.yml) file to Ansible container folder.
+- Copy the - [Filebeat Playbook](https://github.com/qmikell27/Project_1/blob/main/Ansible/filebeat-playbook.yml) and - [Metricbeat Playbook](https://github.com/qmikell27/Project_1/blob/main/Ansible/metricbeat-playbook.yml) to the Ansible container folder 
+- Update the /etc/ansible/host file to include Elk Server IP 10.1.0.4
 - Run the playbook, and navigate to ____ to check that the installation worked as expected.
 
-_TODO: Answer the following questions to fill in the blanks:_
 - _Which file is the playbook? Where do you copy it?_
-/etc/ansible/filebeat-playbook.yml /etc/ansible/filebeat-config.yml
+ansible-playbook filebeat-playbook.yml ansible-playbook metricbeat-playbook.yml
 - _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
 - _Which URL do you navigate to in order to check that the ELK server is running?
 http://[ELK-VM.Public IP]:5601/app/kibana
