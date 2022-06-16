@@ -135,8 +135,10 @@ The playbook implements the following tasks:
 •	Download Launch Docker Container: Elk
 •	Enable Docker Service on Boot
 
-SSH Into Elk@Elk Private IP
+SSH Into Elk@ElkPrivateIP
+
 <img width="396" alt="sshinto elkvm" src="https://user-images.githubusercontent.com/107008734/173981078-1b2fc210-3bd8-41fa-8133-f7474ff689e7.PNG">
+
 Check The Status Of Docker
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 <img width="616" alt="dockerpselk" src="https://user-images.githubusercontent.com/107008734/173719696-30f6a0d7-4cb1-4d47-8463-079a4493e685.PNG">
@@ -165,7 +167,11 @@ ansible-playbook filebeat-playbook.yml ansible-playbook metricbeat-playbook.yml
 Navigate to /etc/ansible/host edit the file to add webserver/elkserver ip address.  
 - _Which URL do you navigate to in order to check that the ELK server is running?
 http://[ELK-VM.Public IP]:5601/app/kibana
-Kibana Page
+<img width="224" alt="kibana ip" src="https://user-images.githubusercontent.com/107008734/173982186-a2859f62-aafb-48c7-bcf2-54f14eeec5be.PNG">
+
+If Done Correctly You Should See The Following Kibana Page
+
+<img width="1051" alt="kibana home page" src="https://user-images.githubusercontent.com/107008734/173981945-444e2c3f-91ce-4a2f-9b15-bcf7696e89b7.PNG">
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
 
