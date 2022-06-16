@@ -62,8 +62,7 @@ Only the JumbBox machine can accept connections from the Internet. Access to thi
 
 The whitelisted IP address to gain access to the JumpBox: Admin (My Personal IP)
 
-Machines within the network can only be accessed by _____.
-The only machine that has access to the ELK VM has the private IP address 10.0.0.4 via SSH Port 22
+Machines within the network can only be accessed by admin IP.
 
 A summary of the access policies in place can be found in the table below.
 
@@ -99,7 +98,7 @@ Elk VNet
 <img width="567" alt="CreateElkVnet" src="https://user-images.githubusercontent.com/107008734/173940813-af7a127f-195f-4fd8-9b44-7cf6b34a7cb2.PNG">
 Elk Vnet Subnets 
 <img width="1199" alt="elksubnets" src="https://user-images.githubusercontent.com/107008734/173941883-7b9815cd-0d35-4f48-aa79-6c25b44ac871.PNG">
-Elk SecRule
+Elk NSG
 <img width="306" alt="elk security rules2" src="https://user-images.githubusercontent.com/107008734/173976082-1fce1c6d-07cc-4aa0-bedb-12017e25bb3e.PNG">
 <img width="604" alt="ServerSecRule2" src="https://user-images.githubusercontent.com/107008734/173975889-48fc2df0-4dbf-4df5-a038-031a7c175d53.PNG">
     2. Create Two Pronged Peering Rule
