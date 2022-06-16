@@ -135,8 +135,9 @@ The playbook implements the following tasks:
 •	Download Launch Docker Container: Elk
 •	Enable Docker Service on Boot
 
-
-
+SSH Into Elk@Elk Private IP
+<img width="396" alt="sshinto elkvm" src="https://user-images.githubusercontent.com/107008734/173981078-1b2fc210-3bd8-41fa-8133-f7474ff689e7.PNG">
+Check The Status Of Docker
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 <img width="616" alt="dockerpselk" src="https://user-images.githubusercontent.com/107008734/173719696-30f6a0d7-4cb1-4d47-8463-079a4493e685.PNG">
 
