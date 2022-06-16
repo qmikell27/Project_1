@@ -141,6 +141,7 @@ SSH Into Elk@ElkPrivateIP
 
 Check The Status Of Docker
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
+
 <img width="616" alt="dockerpselk" src="https://user-images.githubusercontent.com/107008734/173719696-30f6a0d7-4cb1-4d47-8463-079a4493e685.PNG">
 
 
