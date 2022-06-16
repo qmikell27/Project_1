@@ -100,9 +100,8 @@ Elk VNet
 Elk Vnet Subnets 
 <img width="1199" alt="elksubnets" src="https://user-images.githubusercontent.com/107008734/173941883-7b9815cd-0d35-4f48-aa79-6c25b44ac871.PNG">
 Elk SecRule
-<img width="1044" alt="elk security rules" src="https://user-images.githubusercontent.com/107008734/173941942-14db768b-f94e-48a2-8b0b-39af32641741.PNG">
-elk inbound rule 
-<img width="953" alt="elk inbound rule" src="https://user-images.githubusercontent.com/107008734/173942014-68e4fbb0-99f9-4eb3-8603-ea93a683616d.PNG">
+<img width="306" alt="elk security rules2" src="https://user-images.githubusercontent.com/107008734/173976082-1fce1c6d-07cc-4aa0-bedb-12017e25bb3e.PNG">
+<img width="604" alt="ServerSecRule2" src="https://user-images.githubusercontent.com/107008734/173975889-48fc2df0-4dbf-4df5-a038-031a7c175d53.PNG">
     2. Create Two Pronged Peering Rule
        * Elk To Red And Red To Elk
 <img width="1122" alt="Peerings" src="https://user-images.githubusercontent.com/107008734/173940920-7873cad6-4a09-4d41-8b3d-22a38c4a7f6b.PNG">
