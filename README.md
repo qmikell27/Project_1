@@ -119,11 +119,15 @@ Elk VM
 <img width="1141" alt="ElkVm2" src="https://user-images.githubusercontent.com/107008734/173942538-c1783a25-ad07-4e6b-8af7-ab4e7c29b15e.PNG">
     4. Create Ansible Playbook
        * Using A Template Or Your Text Editor Of Choice Create An Ansible Playbook For The Configuration And File Download
-[Add Screenshot]
+        
+        Install Elk File
+<img width="531" alt="installelkyml" src="https://user-images.githubusercontent.com/107008734/173979580-4b56fb10-273a-49be-8994-513d621e8200.PNG">
+        Edit /etc/ansible/hosts
+<img width="540" alt="nanoansiblehosts" src="https://user-images.githubusercontent.com/107008734/173980299-dfe553a1-9a7c-4291-b399-12103e296c18.PNG">
     5. Download The Configuration To The Container
-[Add Screenshot]
     6. Launch The Container
- [Add Screenshot]  
+     
+
 The playbook implements the following tasks:
 •	Install Docker.io
 •	Install Python-pip
@@ -160,6 +164,8 @@ ansible-playbook filebeat-playbook.yml ansible-playbook metricbeat-playbook.yml
 Navigate to /etc/ansible/host edit the file to add webserver/elkserver ip address.  
 - _Which URL do you navigate to in order to check that the ELK server is running?
 http://[ELK-VM.Public IP]:5601/app/kibana
+Kibana Page
+
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
 
 |                         Command                         |                          Description                          |
